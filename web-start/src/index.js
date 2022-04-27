@@ -438,7 +438,8 @@ const firebaseAppConfig = getFirebaseConfig();
 // COMPLETED: Initialize Firebase
 initializeApp(firebaseAppConfig);
 
-// TODO 12: Initialize Firebase Performance Monitoring
+// COMPLETED 12: Initialize Firebase Performance Monitoring
+getPerformance();
 
 initFirebaseAuth();
 loadMessages();
