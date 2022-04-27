@@ -7,7 +7,7 @@
  * 4. Copy the config object snippet, then add it here.
  */
 const config = {
-  /* TODO: ADD YOUR FIREBASE CONFIGURATION OBJECT HERE */
+  /* COMPLETED: ADD YOUR FIREBASE CONFIGURATION OBJECT HERE */
   apiKey: "AIzaSyClE9cDdcmuFyi8o7yfTFmXmXVwP_1BkdU",
   authDomain: "friendlychat-38ea5.firebaseapp.com",
   projectId: "friendlychat-38ea5",
