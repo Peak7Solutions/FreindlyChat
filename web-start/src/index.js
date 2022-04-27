@@ -436,10 +436,10 @@ mediaCaptureElement.addEventListener('change', onMediaFileSelected);
 
 const firebaseAppConfig = getFirebaseConfig();
 // COMPLETED: Initialize Firebase
-initializeApp(firebaseAppConfig);
+const app = initializeApp(firebaseAppConfig);
 
 // COMPLETED 12: Initialize Firebase Performance Monitoring
-getPerformance();
+const perf = getPerformance(app);
 
 initFirebaseAuth();
 loadMessages();
